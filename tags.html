@@ -6,10 +6,10 @@
   </head>
   <body>
 
-    <div>
+    <div style="text-align: right;">
       <a href="index.html">homeページ</a>
-      <a href="tags.html">HTMLタグ一覧</a>
-      <a href="moby_dick.html">読書案内『Mody Dick』</a>
+      <a href="tags.html" style="margin: 0 0 0 10px;">HTMLタグ一覧</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px;">読書案内『Mody Dick』</a>
     </div>
 
     <h1>重要なHTMLタグ一覧</h1>
@@ -30,64 +30,74 @@
 
     <table>
       <tr>
-        <th>HTMLタグ</th>
+        <th >HTMLタグ</th>
         <th>タグ名</th>
         <th>目的</th>
       </tr>
 			<tr>
-        <td><code>h1</code>&ndash;<code>h6</code></td>
-        <td>見出し（heading）</td>
-        <td>この中に見出しを置く（レベル: 1&ndash;6）</td>
+        <td style="padding : 20px;"><code>h1</code>&ndash;<code>h6</code></td>
+        <td style="padding : 20px;">見出し（heading）</td>
+        <td>見出し文を囲む（レベル: 1&ndash;6）</td>
       </tr>
       <tr>
-        <td><code>p</code></td>
-        <td>段落（パラグラフ: paragraph）</td>
-        <td>include a paragraph of text</td>
+        <td style="padding: 20px;"><code>p</code></td>
+        <td style="padding: 20px;">段落（パラグラフ: paragraph）</td>
+        <td >テキストのパラグラフを囲む</td>
       </tr>
       <tr>
-        <td><code>table</code></td>
-        <td>表（テーブル table）</td>
-        <td>この中にテーブルを置く</td>
+        <td style="padding: 20px;"><code>table</code></td>
+        <td style="padding: 20px;">テーブル（テーブル table）</td>
+        <td>表を囲む</td>
       </tr>
       <tr>
         <td><code>tr</code></td>
-        <td>表の行（table row）</td>
-        <td>この中に行データを置く</td>
+        <td>テーブル行（table row）</td>
+        <td>行データを囲む</td>
       </tr>
       <tr>
         <td><code>th</code></td>
         <td>表の見出し（table header）</td>
-        <td>この中に表の見出しを置く</td>
+        <td>表の見出しを記述する</td>
       </tr>
       <tr>
         <td><code>td</code></td>
         <td>表のデータ（table data）</td>
-        <td>この中に表のセルデータを置く</td>
+        <td>テーブルデータのセルを囲む</td>
       </tr>
       <tr>
         <td><code>div</code></td>
-        <td>区切り（division）</td>
-        <td>ページの区切りを設定する汎用のセッションログ</td>
+        <td>区切り（division:区画ディビジョン）</td>
+        <td>ドキュメント内にブロックレベルのセクションを定義する</td>
       </tr>
       <tr>
         <td><code>header</code></td>
         <td>区切り（header）</td>
-        <td>divと同様の使い方</td>
+        <td>divと同様の使い方、ページのヘッダーを表示する</td>
       </tr>
       <tr>
         <td><code>ol</code></td>
         <td>順序付きリスト（ordered list）</td>
-        <td>序列のあるリストを示す</td>
+        <td>番号順に表示されるリスト要素</td>
       </tr>
       <tr>
         <td><code>ul</code></td>
         <td>順序なしリスト（unordered list）</td>
-        <td>順不動のリストを表す</td>
+        <td>順序が重要でないリスト要素</td>
       </tr>
       <tr>
         <td><code>li</code></td>
         <td>リスト項目（list item）</td>
-        <td>順序付きリストでは「1. 2. 3. ...」、順序なしリストでは「・」と表示</td>
+        <td>リスト項目を囲む（olとulどちらにも使う）順序付きリストでは「1. 2. 3. ...」、順序なしリストでは「・」と表示</td>
+      </tr>
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>ブロッククォート（blick quottion）</td>
+        <td>フォーマット済み引用表示</td>
+      </tr>
+      <tr>
+        <td><code>br</code></td>
+        <td>改行（break）</td>
+        <td>改行する</td>
       </tr>
     </table>
 
